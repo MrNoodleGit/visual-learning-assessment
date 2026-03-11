@@ -3,15 +3,27 @@
 Computational Focus
 Visual Learning Lab, Winter 2026
 
-## 1. Visualizing data
+Please complete the following challenges to demonstrate your technical skills and ability to work on technical problems with others. Please respond to each question in as much detail as you can to demonstrate your abilities in areas of programming, problem-solving, and organization.
+
+It is important that you clearly trace your flow of logic while solving each problem – please show your work. Since this challenge should be finished without any interaction from us, you should describe any steps you would take to solve the problem. It is more important to us that we get a good sense of how you reason and problem-solve than it is that you get everything perfectly correct.
+
+For coding questions, please submit results and the code you wrote to generate them, ideally in Python or R. When appropriate or if you get stuck, please provide a written description of the logic you are trying to use.
+
+It is entirely permissible to use any resource that would be at your disposal in this position (e.g., Stack Overflow, Google, books, manuals, even ChatGPT!). But please be sure to cite any resources you use!
+
+We expect this task to take a few hours (maximum). We ask that you send it back to us within 3-4 days so that we can move forward with the interview process. Thanks for your interest and for engaging with these exercises!
+
+Associated materials for Questions 1 and 2 can be found [here](https://www.dropbox.com/scl/fo/wfv281q1kb89g94wwxp96/AL51dN6vRVNzUljUxupfDw8?rlkey=sig2946mw6d6s6aha55d6ywnd&dl=0):
+
+## 1. Visualizing data (TODO: Write report)
 
 We would like to measure which words are harder or easier for children to understand. Our pilot study examined how children can recognize certain words (e.g., “apple”) in the presence of a distractor image (e.g., “carrot”). The provided .csv file in the folder “question1” contains averaged binary response data (column name “pc”, or “percent correct”) about whether children in each age group were able to recognize a word (“targetWord”), the age of the children recognizing the item (“age_group”) and the number of subjects in each age group that we have responses for each item. Please provide a few plots that you think are useful for understanding this dataset. In addition, please plot the proportion of correct responses for certain items by the age of the child responding (choose some subset of the items as there are quite a few). What items show the most variance across age? Please also provide the script you wrote to plot this, in the language of your choice.
 
-## 2. Extracting video descriptives
+## 2. Extracting video descriptives (TODO: Write Report, document code)
 
 Use a publicly available machine learning model to extract some information about the short video clip under “question_2”. You can use the audio data, image data, or video data. Document your choice and the outputs from the model, and describe where you see similarities or differences from what is actually happening in the short video. Please demonstrate your ability to use code to do so in some way, even if part of your process uses a a demo version of a package (e.g., on Huggingface).
 
-## 3. Missing files
+## 3. Missing files (DONE)
 
 Your lab mate writes to you with this message.
 
@@ -19,7 +31,7 @@ Your lab mate writes to you with this message.
 
 Without going into too much detail, describe what could be going on here, and also how you would communicate and work with this person to move forward.
 
-## 4. Project organization
+## 4. Project organization (TODO: All)
 
 Please describe how you would create and document a research project that includes an online behavioral experiment so that it could be easily understood and reused by a new lab member six months from now.
 
