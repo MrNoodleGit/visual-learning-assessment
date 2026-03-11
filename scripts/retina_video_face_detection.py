@@ -1,0 +1,50 @@
+"""
+Created by Ra Mour
+March 10, 2026
+
+This script imports a video, runs a face detection model, and outputs a video with superimposed bounding boxes on every frame. It can be run on Google Colab using the T4 GPU.
+
+- The script requires the retina-face python package from pip and tensorflow
+
+Playground notebook is located at
+    https://colab.research.google.com/drive/1mebEO_f0cMhQW0GE3zT6ixkZMyFf90FB
+"""
+
+from retinaface import RetinaFace
+import cv2
+
+
+def get_rectangle_coords(face_item):
+  start  = int(face_item['facial_area'][0]), int(face_item['facial_area'][1])
+  end =  (int(face_item['facial_area'][2]), int(face_item['facial_area'][3]))
+
+  return start, end
+
+input_video_dir = "../task-data/q2_videodescriptives/example_clip_no_audio.mov"
+
+video_capture = cv2.VideoCapture(input_video_dir) # load video file
+fps = video_capture.get(cv2.CAP_PROP_FPS) # check the video frame rate
+width  = int(video_capture.get(cv2.CAP_PROP_FRAME_WIDTH))
+height = int(video_capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+video_output = cv2.VideoWriter("../data-output/output_clip_faces.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, (width, height)) # initialize video output
+
+frame_idx = 0
+while video_capture.isOpened():
+    ret, frame = video_capture.read()
+    if not ret:
+        break
+
+    frame_faces_dict = RetinaFace.detect_faces(frame) # get faces from detector
+    for face_id in frame_faces_dict: # for each face, draw the bounding box
+
+        # Draw boxes for this frame
+        start, end = get_rectangle_coords(frame_faces_dict[face_id])
+        cv2.rectangle(frame, start, end, (0,0,255), 3)
+
+    video_output.write(frame)
+    frame_idx += 1
+
+video_capture.release()
+video_output.release()
+
