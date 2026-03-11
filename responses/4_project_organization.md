@@ -12,12 +12,15 @@ I would:
 
 ## During Data Analysis:
 
-I'd ensure that processed data follows a clear chain. Every transformation should be scripted, not done by hand to maintain reproducibility and understand the progression of how data was produced.
+- I'd ensure that processed data follows a clear chain. Every transformation should be scripted, not done by hand to maintain reproducibility and understand the progression of how data was produced.
 
-I'd make sure to use relative paths in scripts, not absolute paths that would cause the code to break if someone runs it on a different system.
+- Transformed data should be kept seperate from raw data. Raw data must never be modified directly.
+
+- I'd make sure to use relative paths in scripts, not absolute paths that would cause the code to break if someone runs it on a different system.
 
 ## 2. Folder Structure
 
+```
 project-root/
 │
 ├── README.md
@@ -51,6 +54,7 @@ project-root/
 └── outputs/
 ├── manuscript/
 └── supplementary/
+```
 
 ## Data Documentation
 
@@ -80,4 +84,5 @@ I would include the following in a data dictionary (data/codebook.md in example 
 Sources:
 
 https://experimentology.io/
+
 https://www.go-fair.org/fair-principles/

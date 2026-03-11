@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project investigates age-related differences in vocabulary knowledge
-in children aged 3 to 11. The data were collected via an online behavioral
+This project investigates which words are easier or more difficult for children to understand. We examine how children aged 3 to 11 can recognize certain words (e.g., “apple”) in the presence of a distractor image (e.g., “carrot”). The data were collected via an online behavioral
 experiment.
 
 ## Repository Structure

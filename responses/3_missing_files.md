@@ -1,4 +1,4 @@
-3.
+# 3. Missing Files
 
 > "Hey Émile! Thank you for sharing those details. I've investigated the most likely cause of the issue. Fortunately, my best guess is that your files are safe and we'll be able to fix this soon. I will check with the server admin so we can restore your access to the missing directories. In the meantime, however, just in case we have other issues or you need access to something urgently: are you able to continue working on a different portion of the paper while we fix the issue? If you have backups on your local device or Google Drive of the most essential files, it will be helpful to focus on what you can accomplish with those so that you don't get stuck. Also, let's avoid applying chmod 777 to prevent other issues. Once I confirm the cause, I'll offer guidance on how to prevent this in the future!
 
