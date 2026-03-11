@@ -4,6 +4,12 @@
 
 Submission for Ra Mour's assessment to join the Visual Learning Lab.
 
+Please see the assessment folder for my written responses to each part. Also, view `notebooks/q1-plots.ipynb` to find my plots for part 1.
+
+`data-output/output_clip_faces.mp4` is a version of the example clip with bounding boxes that track the faces in each frame, produced using the RetinaFace computer vision library and OpenCV.
+
+`data-output/gemini-video-captions/gemini_video_caption_1.txt` is a sample video caption using the Gemini API.
+
 ## Repository Structure
 
 ```
