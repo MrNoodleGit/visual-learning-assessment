@@ -1,11 +1,3 @@
-# Responses
-
-1.
-
-We have a CSV file with four columns. First we import the CSV using the Pandas library, which provides a convenient system for interacting with tabular data. I will use the Seaborn visualization library (instead of Matplotlib) for its nice default designs and ease of setup.
-
-I like to use the Conda package manager to create environments for each project I start.
-
 2.
 
 The example video consists of first-person footage of a child in a natural environment as well as audio of simultaneous interactions with other humans. Depending on the goal of our analysis, different video processing systems are appropriate.
@@ -39,17 +31,3 @@ I was curious to see how effective Gemini was for this task. In addition to many
 However, the inference time to use Gemini to annotate entire videos is infeasible. It also requires strict prompting to attempt to force the model to always give the desired output structure. It is like using a bulldozer to place a nail.
 
 In the end, I settled on the [RetinaFace](https://github.com/serengil/retinaface) computer vision python library. This is a very high accuracy computer vision model trained exclusively to detect faces. I was able to detect faces for every single frame and draw the bounding boxes in ~1 - 2 minutes of compute (for a 17 second video) using the Google Colab T4 GPU. I implented the logic to load the video, draw the bounding boxes, and export using the [OpenCV library](https://docs.opencv.org/4.x/).
-
-3.
-
-> "Hey Émile! Thank you for sharing those details. I've investigated the most likely cause of the issue. Fortunately, my best guess is that your files are safe and we'll be able to fix this soon. I will check with the server admin so we can restore your access to the missing directories. In the meantime, however, just in case we have other issues or you need access to something urgently: are you able to continue working on a different portion of the paper while we fix the issue? If you have backups on your local device or Google Drive of the most essential files, it will be helpful to focus on what you can accomplish with those so that you don't get stuck. Also, let's avoid applying chmod 777 to prevent other issues. Once I confirm the cause, I'll offer guidance on how to prevent this in the future!
-
-> If you need something immediately that you can't find, we can also check with Jane, Haoyu, or one of the other collaborators for the paper since they may have copies available. Please let me know if anything else could be helpful while we resolve the server issue.
-
-> To share context on the problem: Using 'chmod777' grants total permissions to any user, which the server can flag as a security issue. This usually means the directories are automatically moved or access is revoked to prevent cyberattacks or unwanted file overwrites."
-
-Analysis: My first step is to investigate the issue and explore the most likely causes. My next priority is to offer Émile practical steps so they can move forward, which will be helpful regardless of the underlying issue. I also aim to offer whatever honest reassurance I can to alleviate unhelpful stress or anxiety about the problem. I share the most essential details about the cause of the issue so that Émile can have some insight, but it isn't my emphasis.
-
-It's possible that the issue is more complex or uncertain to resolve than I anticipated. As soon as I discovered that, my next step would be to meet with Émile. I'd gather more information on what happened before the directories disappeared and we would carefully explore what Émile needs to meet their deadline. With that context, I could propose more specific strategies for recovering from the data-loss or advise them to request an extension if that becomes necessary.
-
-4.

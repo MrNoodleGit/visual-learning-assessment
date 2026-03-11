@@ -1,10 +1,5 @@
 # visual-learning-assessment
 
-## TODO
+AI USE DISCLAIMER: For most of this assessment, I made about 20% use of AI tools--primarily as a search mechanism to explore online resources and code documentation or to get simple code advice (e.g. group pandas dataframe manipulation). My aim was to somewhat replicate how I would work before the breakthrough of AI programming. This was both to highlight my own baseline thinking and working process and make sure I had a direct understanding of how I produced each portion of my work as I progressed.
 
-- create informative targetWord plots
-- plot highest variance items
-
-AI USE DISCLAIMER: For this assessment, I made about 20% use of AI tools--primarily as a search mechanism to explore online resources and code documentation or to get simple code advice (e.g. how do I group pandas dataframes by the length of the value in a column?). My aim was to somewhat replicate how I would work before the breakthrough of AI programming. This was both to highlight my own baseline thinking and working process, refresh my knowledge of certain concepts, and make sure I had a direct understanding of each portion of my work as I progressed.
-
-Needless to say, one could produce solutions significantly faster, write more, and brainstorm alternative approaches with more sophisticated use of AI. I believe it's important to weigh the benifits and risks of that use on a case-by-case basis.
+For part 4: Project Organization, I used Claude to help generate a plausible folder structure and sample README, which I then modified for my specific use. I also used Claude to generate the folder structure for this repository.
