@@ -54,4 +54,4 @@ Figures will be saved to `analysis/figures/`.
 
 ## Contact
 
-Ra Mour, Visual Learning Lab, ramour@ucsd.edu — last updated March 11, 2026
+Ra Mour, Visual Learning Lab, ramour42ucsd.edu — last updated March 11, 2026

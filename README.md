@@ -62,7 +62,7 @@ The retina_video_face_detection.py must be run on a GPU server (e.g. Google Cola
 
 ## Contact
 
-Ra Mour, Visual Learning Lab, ramour@ucsd.edu — last updated March 11, 2026
+[Ra Mour](https://ramour.org/)
 
 ## AI USE DISCLAIMER
 
