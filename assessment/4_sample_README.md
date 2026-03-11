@@ -16,7 +16,7 @@ experiment.
 
 ## Requirements
 
-- Python 3.11
+- Python 3.14.3
 - Conda
 - Pandas
 - Seaborn
